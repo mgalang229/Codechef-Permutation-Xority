@@ -16,9 +16,9 @@ void TestCase() {
 	// is odd, thus, it would produce an XOR value of 0
 	
 	// 2nd case: N is even
-	// skip the first 4 values of the sequence because based on the 1st case,
-	// a sequence with an even length will automatically produce an XOR value of 0, 
-	// so we only need to worry about cancelling the 1's in the first 4 values
+	// change the first 3 values of the sequence because based on the 1st case,
+	// a sequence with an odd length will automatically produce an XOR value of 0, 
+	// so we only need to worry about cancelling the 1's in the first 3 values
 	
 	if(n == 2) {
 		cout << "-1\n";
